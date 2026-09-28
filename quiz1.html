@@ -1,0 +1,99 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban DigiCraft</title>
+</head>
+
+<body>
+    <center>
+    <!-- Bagian Kepala Halaman (Header & Navigasi) -->
+    <header>
+        <h1>Poliban DigiCraft Studio</h1>
+        <p>Solusi Transformasi Bisnis Digital Anda Di Banjarmasin</p>
+        <nav>
+            <a href="kontak.html">Kembali ke Beranda</a>
+        </nav>
+        <hr>
+
+    </header>
+    </center>
+
+    <main>
+        <h2>Form Pemesanan Ringkas - Poliban DigiCraft</h2>
+        
+        <!-- Bagian Informasi Produk -->
+        <section>
+            <h3>Image</h3>
+            <img src="images.jpg" alt="Image" width="150">
+            <p>
+                Deskripsi singkat tentang produk atau layanan yang ditawarkan
+                oleh Poliban DigiCraft. Informasi tambahan untuk pengguna.
+            </p>
+        </section>
+        <!-- Bagian Daftar Paket -->
+        <section>
+            <table border="1">
+                <thead>
+                    <tr bgcolor="#008080">
+                         <th>Package Name</th>
+                         <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paket Basic</td>
+                        <td>Rp 50.000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Paket Standar</td>
+                        <td>Rp 100.000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Paket Premium</td>
+                        <td>Rp 150.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+        <!-- Formulir Pemesanan -->
+        <section>
+            <h2>Formulir Pemesanan</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><b>Data Diri Pelanggan</b></legend>
+                    <label for="nama_lengkap"> Nama Lengkap:</label>
+                    <br>
+                    <input
+                        type="text" name="nama_lengkap" id="nama_lengkap" required>
+                    <br><br>
+                    <label for="email_pemesan">
+                        Email:
+                    </label>
+                    <br>
+                    <input type="email" name="email_pemesan" id="email_pemesan" placeholder="Email" required>
+                    <br><br>
+                    <label for="paket">Paket:
+                    </label>
+                    <br>
+                    <select name="paket" id="paket" required>
+                        <option value="">Pilih Paket</option>
+                        <option value="Paket Basic">Paket Basic</option>
+                        <option value="Paket Standar">Paket Standar</option>
+                        <option value="Paket Premium">Paket Premium</option>
+                    </select>
+                    <br><br>
+                    <button type="submit"> Kirim Pemesanan</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+            
